@@ -1,4 +1,4 @@
-# Skeleton Repo for the solutions for awesome [tutorial](https://github.com/stevekane/promise-it-wont-hurt)
+# Skeleton Repo for the solutions for the awesome [tutorial](https://github.com/stevekane/promise-it-wont-hurt)
 
 ## Installation instructions
 
