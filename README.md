@@ -1,4 +1,5 @@
 # Skeleton Repo for the solutions for the awesome [tutorial](https://github.com/stevekane/promise-it-wont-hurt)
+This repo contains all the source files for the solutions of the `promise it won't hurt` exercises. The tutorial is meant to give you a hands on understanding of how to use promises.
 
 ## Installation instructions
 
