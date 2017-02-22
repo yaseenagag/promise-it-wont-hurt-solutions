@@ -1,2 +1,38 @@
-# Solutions for [0m[1mc[41m[37m[3;3f                                                                     [3;5f[1mPromise It Won't Hurt[22m[41m[37m[4;3f                                                                     [4;5f[3mLearn to use promises in Node and browsers[23m[41m[37m[5;3f                                                                     [5;5f-----------------------------------------------------------------[6;3f                                                                     [7;3f                                                                     [8;3f                                                                     [9;3f                                                                     [10;3f                                                                     [11;3f                                                                     [12;3f                                                                     [13;3f                                                                     [14;3f                                                                     [15;3f                                                                     [16;3f                                                                     [17;3f                                                                     [41m[37m[18;3f                                                                     [18;5f-----------------------------------------------------------------[19;3f                                                                     [20;3f                                                                     [?25l[2;3f                                                                     [6;5f[47m[31m[1m»[22m fulfill_a_promise                                    [7;5f[41m[37m[1m»[22m reject_a_promise                                     [8;5f[41m[37m[1m»[22m to_reject_or_not_to_reject                           [9;5f[41m[37m[1m»[22m always_async                                         [10;5f[41m[37m[1m»[22m values_and_promises                                  [11;5f[41m[37m[1m»[22m throw_an_error                                       [12;5f[41m[37m[1m»[22m using_qfcall                                         [13;5f[41m[37m[1m»[22m an_important_rule                                    [14;5f[41m[37m[1m»[22m multiple_promises                                    [15;5f[41m[37m[1m»[22m fetch_json                                           [16;5f[41m[37m[1m»[22m do_some_work                                         [17;5f[41m[37m[1m»[22m more_functional                                      [19;5f[41m[37m[1mHELP[22m                                                   [20;5f[41m[37m[1mEXIT[22m                                                   [21;3f                                                                     c
-# Solutions for promise-it-wont-hurt
+# Skeleton Repo for the solutions for awesome [tutorial](https://github.com/stevekane/promise-it-wont-hurt)
+
+## Installation instructions
+
+#### 1. Install the package `promise-it-wont-hurt` which contains the tutorials
+Run this in a terminal window :
+```bash
+npm install -g promise-it-wont-hurt@latest
+```
+#### 2. Start the tutorial
+Run this in a terminal window :
+```bash
+promise-it-wont-hurt
+```
+Make sure to go through each problem from top to bottom. (they get harder as you progress downwards)
+
+#### 3. Read the instructions which get displayed in the terminal window
+
+
+#### 4. Create frequent pull requests so that your code can be reviewed by a Coach.
+
+## Specifications
+- [ ] Completed all the exercises listed in the tutorial
+
+## Quality Rubric
+**Well formatted code**
+- Code uses a linter, which can be invoked with a command (e.g. `npm run lint`). [50 points]
+- Running the linter on all source code files generates no linting errors. [50 points]
+
+**Proper dependency management**
+- There is a command to install dependencies (e.g. `npm install`) and it is specified in the installation and setup instructions of the README. [50 points]
+
+**Good project management**
+- Commit messages are concise and descriptive. [25 points]
+- All features are added via pull requests. [25 points]
+- Every pull request has a description summarizing the changes made. [25 points]
+- Every pull request has been reviewed by at least one other person. [25 points]
+
