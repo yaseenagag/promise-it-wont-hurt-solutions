@@ -1,6 +1,7 @@
 # Skeleton Repo for the solutions for the awesome [tutorial](https://github.com/stevekane/promise-it-wont-hurt) on Promises.
 This repo contains all the source files for the solutions of the `promise it won't hurt` exercises. The tutorial is meant to give you a hands on understanding of how to use promises.
-<br/>Base repository of the [promises-applied](https://github.com/GuildCrafts/web-development-js/issues/186) goal.
+
+Base repository of the [promises-applied](https://github.com/GuildCrafts/web-development-js/issues/186) goal.
 
 ## Getting Started
 
@@ -18,7 +19,7 @@ npm install -g promise-it-wont-hurt@latest
 Once the workshop is installed, run `promise-it-wont-hurt` to print a menu
 where you can select a problem to work on.
 
-<br/>Run this command in a terminal window
+Run this command in a terminal window
 ```bash
 promise-it-wont-hurt
 ```
@@ -36,7 +37,7 @@ Using your preferred editor, simply edit the corresponding file inside the `src`
 Use the workshop's `run` command to point the workshop at your solution file. Your solution will loaded
 and passed the problem input. This usually won't perform any validation, it will only show the program output.
 
-<br/>Run this command in a terminal window
+Run this command in a terminal window
 ```bash
 promise-it-wont-hurt run src/01-warmup.js
 ```
@@ -46,7 +47,7 @@ promise-it-wont-hurt run src/01-warmup.js
 Your solution will be verified against the output of the 'official' solution.
 If all of the output matches, then you have successfully solved the problem!
 
-<br/>Run this command in a terminal window
+Run this command in a terminal window
 ```bash
 promise-it-wont-hurt verify src/01-warmup.js
 ```
