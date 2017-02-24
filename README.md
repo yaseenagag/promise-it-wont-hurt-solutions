@@ -1,39 +1,54 @@
-# Skeleton Repo for the solutions for the awesome [tutorial](https://github.com/stevekane/promise-it-wont-hurt)
+# Skeleton Repo for the solutions for the awesome [tutorial](https://github.com/stevekane/promise-it-wont-hurt) on Promises.
 This repo contains all the source files for the solutions of the `promise it won't hurt` exercises. The tutorial is meant to give you a hands on understanding of how to use promises.
+<br/>Base repository of the [promises-applied](https://github.com/GuildCrafts/web-development-js/issues/186) goal.
 
-## Installation instructions
+## Getting Started
 
-#### 1. Install the package `promise-it-wont-hurt` which contains the tutorials
+#### Install the package `promise-it-wont-hurt` which contains the tutorials
 Run this in a terminal window :
 ```bash
 npm install -g promise-it-wont-hurt@latest
 ```
-#### 2. Start the tutorial
-Run this in a terminal window :
+## Exercises
+
+### Usage Instructions
+
+#### 1. Selecting a problem to work on
+
+Once the workshop is installed, run `promise-it-wont-hurt` to print a menu
+where you can select a problem to work on.
+
+<br/>Run this command in a terminal window
 ```bash
 promise-it-wont-hurt
 ```
-Make sure to go through each problem from top to bottom. (they get harder as you progress downwards)
 
-#### 3. Read the instructions which get displayed in the terminal window
+Problems are listed in rough order of difficulty. You are advised to complete them in order, as later problems
+will build on skills developed by solving previous problems.
 
+#### 2. Writing your solution
 
-#### 4. Create frequent pull requests so that your code can be reviewed by a Coach.
+Once you have selected a problem, the workshop will remember which problem you are working on.
+Using your preferred editor, simply edit the corresponding file inside the `src` folder to write your solution in.
 
-## Specifications
-- [ ] Completed all the exercises listed in the tutorial
+#### 3. Testing your solution
 
-## Quality Rubric
-**Well formatted code**
-- Code uses a linter, which can be invoked with a command (e.g. `npm run lint`). [50 points]
-- Running the linter on all source code files generates no linting errors. [50 points]
+Use the workshop's `run` command to point the workshop at your solution file. Your solution will loaded
+and passed the problem input. This usually won't perform any validation, it will only show the program output.
 
-**Proper dependency management**
-- There is a command to install dependencies (e.g. `npm install`) and it is specified in the installation and setup instructions of the README. [50 points]
+<br/>Run this command in a terminal window
+```bash
+promise-it-wont-hurt run src/01-warmup.js
+```
 
-**Good project management**
-- Commit messages are concise and descriptive. [25 points]
-- All features are added via pull requests. [25 points]
-- Every pull request has a description summarizing the changes made. [25 points]
-- Every pull request has been reviewed by at least one other person. [25 points]
+#### 4. Verifying your solution
+
+Your solution will be verified against the output of the 'official' solution.
+If all of the output matches, then you have successfully solved the problem!
+
+<br/>Run this command in a terminal window
+```bash
+promise-it-wont-hurt verify src/01-warmup.js
+```
+
 
